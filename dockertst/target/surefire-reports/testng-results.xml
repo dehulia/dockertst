@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="624" started-at="2018-09-12T08:36:10Z" finished-at="2018-09-12T08:36:11Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner@3d8c7aca]" name="feature" class="TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Login and Update Profile Test" duration-ms="624" started-at="2018-09-12T08:36:10Z" finished-at="2018-09-12T08:36:11Z">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@3d8c7aca]" name="setUpClass" is-config="true" duration-ms="158" started-at="2018-09-12T14:06:10Z" finished-at="2018-09-12T14:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner@3d8c7aca]" name="feature" duration-ms="267" started-at="2018-09-12T14:06:10Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-09-12T14:06:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login Profile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner@3d8c7aca]" name="feature" duration-ms="43" started-at="2018-09-12T14:06:11Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-09-12T14:06:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Update Profile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@3d8c7aca]" name="tearDownClass" is-config="true" duration-ms="87" started-at="2018-09-12T14:06:11Z" finished-at="2018-09-12T14:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner -->
+    </test> <!-- Login and Update Profile Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
